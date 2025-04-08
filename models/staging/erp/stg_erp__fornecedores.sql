@@ -1,7 +1,7 @@
 with
 fonte_fornecedores as (
     select 
-        cast(ID as int) as pk_fornecedore
+        cast(ID as int) as pk_fornecedor
         , cast(COMPANYNAME as varchar) as nome_fornecedor
         , cast(CITY as varchar) as cidade_fornecedor
         , cast(country as varchar) as pais_fornecedor
