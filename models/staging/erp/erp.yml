@@ -1,0 +1,14 @@
+sources:
+  - name: erp
+    description: Sistema de vendas da Northwind.
+    database: FEA24_11
+    schema: raw_northwind
+    tables:
+      - name: category
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+      - name: products
+      - name: suppliers
